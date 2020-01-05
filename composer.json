@@ -1,5 +1,5 @@
 {
-    "name": "Core-php/Connection",
+    "name": "core-php/connection",
     "description": "Connection class for core php development",
     "keywords": ["php", "connecion", "database"],
     "type": "library",
@@ -14,7 +14,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Core-php\\Connection\\": "Core-php/Connection/"
+            "core-php\\connection\\": "Core-php/Connection/"
         }
     }
 }
