@@ -1,5 +1,5 @@
 {
-    "name": "connection",
+    "name": "corephp/connection",
     "description": "Connection class for core php development",
     "keywords": ["php", "connecion", "database"],
     "type": "library",
@@ -15,7 +15,11 @@
     "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
-            "Core-php\\": "Core-php"
-        }
+            "Core-php\\": "Corephp/"
+        },
+        "classmap": [
+            "Corephp/Classes",
+            "Corephp/Connection"
+        ]
     }
 }
