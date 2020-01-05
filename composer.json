@@ -1,5 +1,5 @@
 {
-    "name": "core-php/connection",
+    "name": "connection",
     "description": "Connection class for core php development",
     "keywords": ["php", "connecion", "database"],
     "type": "library",
