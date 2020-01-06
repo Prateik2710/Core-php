@@ -1,5 +1,5 @@
 <?php
-namespace corephp\Classes;
+namespace Corephp\Classes;
 
 Class EnvLoader {
 

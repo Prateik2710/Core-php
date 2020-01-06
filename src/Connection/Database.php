@@ -1,8 +1,9 @@
 <?php
 
-namespace corephp\Connection;
+namespace Corephp\Connection;
 
-use corephp\Classes\Logger;
+use Corephp\Classes\Logger;
+
 
 class Database {
     private $host;
@@ -22,7 +23,7 @@ class Database {
         try {
             $this->pdo = new \PDO("mysql:host=$this->host;dbname=$this->db", $this->username, $this->password, array(\PDO::ATTR_ERRMODE => \PDO::ERRMODE_EXCEPTION));
         } catch (\PDOException $e) {
-            Logger::log($e->getMessage());
+            Logsger::log($e->getMessage());
             throw new \Exception($e->getMessage());
         }
     }

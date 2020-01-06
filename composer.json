@@ -1,5 +1,5 @@
 {
-    "name": "prateik/corephp",
+    "name": "prateik/core-php",
     "description": "Connection class for core php development",
     "keywords": ["php", "connecion", "database"],
     "type": "library",
@@ -15,11 +15,7 @@
     "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
-            "corephp\\": "core-php/"
-        },
-        "classmap": [
-            "Classes",
-            "Connection"
-        ]
+            "Corephp\\": "src"
+        }
     }
 }

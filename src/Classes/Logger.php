@@ -1,6 +1,6 @@
 <?php
 
-namespace corephp\Classes;
+namespace Corephp\Classes;
 
 class Logger {
     
