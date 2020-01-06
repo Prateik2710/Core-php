@@ -1,8 +1,8 @@
 <?php
 
-namespace vendor\connection;
+namespace corephp\Connection;
 
-use classes\Logger;
+use corephp\Classes\Logger;
 
 class Database {
     private $host;

@@ -1,5 +1,5 @@
 <?php
-namespace vendor\connection;
+namespace corephp\Classes;
 
 Class EnvLoader {
 

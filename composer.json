@@ -15,11 +15,11 @@
     "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
-            "core-php\\": "core-php/"
+            "corephp\\": "core-php/"
         },
         "classmap": [
-            "core-php/Classes",
-            "core-php/Connection"
+            "Classes",
+            "Connection"
         ]
     }
 }

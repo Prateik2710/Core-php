@@ -1,12 +1,12 @@
 <?php
 
-namespace vendor\connection;
+namespace corephp\Connection;
 
 use Exception;
 use Throwable;
-use classes\Logger;
-use vendor\connection\Database;
-use vendor\connection\EnvLoader;
+use corephp\Classes\Logger;
+use corephp\Classes\EnvLoader;
+use corephp\Connection\Database;
 
 class Connection extends Database {
     public function __construct()
