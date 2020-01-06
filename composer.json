@@ -1,5 +1,5 @@
 {
-    "name": "corephp",
+    "name": "prateik/corephp",
     "description": "Connection class for core php development",
     "keywords": ["php", "connecion", "database"],
     "type": "library",
