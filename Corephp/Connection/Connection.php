@@ -6,15 +6,16 @@ use Exception;
 use Throwable;
 use classes\Logger;
 use vendor\connection\Database;
+use vendor\connection\EnvLoader;
 
 class Connection extends Database {
     public function __construct()
     {
-
-        $host = getenv("connection_host");
-        $dbname = getenv("db_name");
-        $dbusername = getenv("db_username");
-        $dbpassword = getenv("db_password");
+        $envLoader = new EnvLoader();
+        $host = getenv("DB_HOST");
+        $dbname = getenv("DB_DATABASE");
+        $dbusername = getenv("DB_USERNAME");
+        $dbpassword = getenv("DB_PASSWORD");
         try {
             $this->setConnection("$host", "$dbname", "$dbusername", "$dbpassword");
             $this->createConnection();
