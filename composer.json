@@ -3,6 +3,7 @@
     "description": "Connection class for core php development",
     "keywords": ["php", "connecion", "database"],
     "type": "library",
+    "license": "MIT",
     "authors": [
         {
             "name": "Prateik Darji",
