@@ -3,7 +3,7 @@
 
   
 
-[![Author](https://img.shields.io/badge/author-@prateik-blue.svg?style=rounded-square)](https://www.linkedin.com/in/prateikdarji) [![Build Status](https://img.shields.io/travis/prateik2710/Core-php/master.svg?style=rounded-square)](https://travis-ci.org/prateik2710/core-php) [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE) [![Packagist Version](https://img.shields.io/packagist/v/prateik/core-php.svg?style=rounded-square)](https://packagist.org/packages/league/flysystem) [![Total Downloads](https://img.shields.io/packagist/dt/prateik/core-php.svg?style=rounded-square)](https://packagist.org/packages/league/flysystem)
+[![Author](https://img.shields.io/badge/author-@prateik-blue.svg?style=rounded-square)](https://www.linkedin.com/in/prateikdarji) [![Build Status](https://img.shields.io/travis/prateik2710/Core-php/master.svg?style=rounded-square)](https://travis-ci.org/prateik2710/core-php) [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE) [![Packagist Version](https://img.shields.io/packagist/v/prateik/core-php.svg?style=rounded-square)](https://packagist.org/packages/prateik/Core-php) [![Total Downloads](https://img.shields.io/packagist/dt/prateik/core-php.svg?style=rounded-square)](https://packagist.org/packages/prateik/Core-php)
 
 same as laravel all the configuration you can use `.env` file for storing all configurations.
 
